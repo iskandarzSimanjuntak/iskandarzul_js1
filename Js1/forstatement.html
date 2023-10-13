@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOR STATEMENT</title>
+</head>
+<body>
+    FOR STATEMENT
+    <p>nama nama pabrikan motor</p>
+    <p id="pabrikan"></p>
+    <script>
+        const pabrikan = ["HONDA", "YAHMAHAL", "SUZUKI", "HUSQVARNA"];
+let text = "";
+for (let i = 2; i < pabrikan.length; i++) {
+  text += pabrikan[i] + "<br>";
+}
+document.getElementById("pabrikan").innerHTML= text;
+    </script>
+</body>
+</html>
